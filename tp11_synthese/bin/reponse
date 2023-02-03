@@ -1,0 +1,49 @@
+Exercice 1 :
+1) 	L'utilisation de la méthode newAPIHadoopRDD est nécessaire pour créer un RDD à partir des données stockées dans HBase 
+	car cette méthode est capable de lire les données depuis un système de stockage distribué comme HBase 
+	en utilisant les InputFormat et les Writable Hadoop.
+	
+	Les InputFormat Hadoop sont des classes qui définissent comment les données doivent être lues depuis un système de stockage distribué. 
+	La classe TableInputFormat est utilisée pour lire les données depuis une table HBase.
+	Il utilise la configuration HBase pour se connecter à la table et utiliser le scan pour sélectionner les données à récupérer.
+	
+	Les Writable Hadoop sont des classes qui définissent comment les données doivent être stockées en mémoire. 
+	Les classes ImmutableBytesWritable et Result sont utilisées pour stocker les données de clé et de valeur respectivement.
+
+	En utilisant newAPIHadoopRDD, les données sont lues à partir de HBase en utilisant les InputFormat et Writable appropriés, 
+	et ensuite converties en un RDD qui peut être transformé et traité à l'aide des fonctions Spark.	
+	
+	
+RDD[(ImmutableBytesWritable,Result)]
+newAPIHadoopRDD[K, V, F <: InputFormat[K, V]](conf: Configuration, fClass: Class[F], kClass: Class[K], vClass: Class[V]): RDD[(K, V)]
+
+
+-----------------------------------------------------------
+
+
+2)	la méthode itère sur les éléments du RDD d'entrée et pour chaque élément,
+	elle effectue une instruction de correspondance pour vérifier le type de mutation.
+	
+	foreachPartition plutot que foreach car la connection est ouvert que 1 fois par partition 
+	(plutot que une fois par element pour foreach executed on the driver node )
+	
+	put et delete dans liste car la fonction qui prends une liste en param appelle foreachpartition. 
+	Charger tout le tableau direct en memoire. (au lieu de prendre 1 par 1)
+	reducing the number of interactions with the external system (HBase) and greatly improving performance.
+	
+	The type parameter M in the class definition "class RDDHbaseM<:Mutation" specifies that the RDD is of a generic type M, 
+	where M is a subtype of the type Mutation.
+
+	the type parameter M would not be defined and the RDD would be of type "RDD[Mutations]".
+	In this case, the methods of the class would not be able to access the specific type of the elements in the RDD, 
+	and it would not be possible to perform a match statement
+	
+	The "<:Mutation" part of the definition is known as a type constraint, which limits the types that can be used for M to subtypes of Mutation. 
+	This means that any type used for M must extend the Mutation class. 
+	This type constraint allows the class to access the methods of the Mutation class and the subclasses of it. 
+	
+
+
+
+
+

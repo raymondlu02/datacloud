@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move source folder &apos;ressources&apos; to &apos;tp11_synthese&apos;&#x0A;- Original project: &apos;tp_synthese&apos;&#x0A;- Destination element: &apos;tp11_synthese&apos;&#x0A;- Original element: &apos;tp_synthese/ressources&apos;&#x0A;- Update references to refactored element" description="Move source folder" destination="=tp11_synthese" element1="/ressources" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="1" stamp="1674316703703" version="1.0"/>
+</session>

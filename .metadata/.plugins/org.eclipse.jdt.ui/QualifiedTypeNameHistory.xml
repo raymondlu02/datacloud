@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="peersim.edsim.EDProtocol"/>
+    <fullyQualifiedTypeName name="peersim.transport.Transport"/>
+    <fullyQualifiedTypeName name="peersim.core.CommonState"/>
+    <fullyQualifiedTypeName name="peersim.core.Control"/>
+    <fullyQualifiedTypeName name="peersim.config.Configuration"/>
+    <fullyQualifiedTypeName name="peersim.core.Network"/>
+    <fullyQualifiedTypeName name="peersim.core.Node"/>
+    <fullyQualifiedTypeName name="jdk.jfr.EventType"/>
+    <fullyQualifiedTypeName name="org.apache.zookeeper.Watcher"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.ByteBuffer"/>
+    <fullyQualifiedTypeName name="org.apache.zookeeper.Watcher.Event.EventType"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="datacloud.zookeeper.ZkClient"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+    <fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
+    <fullyQualifiedTypeName name="org.apache.zookeeper.data.Stat"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+</qualifiedTypeNameHistroy>

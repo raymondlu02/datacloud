@@ -1,0 +1,23 @@
+import scala.collection.mutable.HashMap;
+class CatalogueWithMutable extends Catalogue{
+   var hash = new HashMap[String, Double] = HashMap.empty[String, String];
+    
+  
+   def getPrice(nom : String) : Double{
+       return hash(nom) ;
+       
+   }
+   
+   def removeProduct(nom : String) : Double{
+     
+   }
+    // peut etre iterator voir poly p56
+   def selectProducts(prix_min : Double , prix_max : Double) : Iterator[String]{
+     
+   }
+   
+   def storeProduct(nom : String , prix : Double) : Unit{
+     
+   }
+  
+}

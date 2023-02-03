@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+/home/raymond/datacloud/datacloud_workspace/.metadata/.plugins/org.eclipse.jdt.core
+800965131.index
+2188541568.index
+3670912528.index
+646308851.index
+4127298875.index
+462419507.index
+1254778308.index

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SparkPi.scala&apos; to &apos;tp5/src/(default package)&apos;&#x0A;- Original project: &apos;exercices_spark&apos;&#x0A;- Destination element: &apos;tp5/src/(default package)&apos;&#x0A;- Original element: &apos;SparkPi.scala&apos;" description="Copy file" destination="=tp5/src&lt;" element1="src/SparkPi.scala" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667147130669" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+import datacloud.scala.tpobject.catalogue.Catalogue
+
+class CatalogueWithMutable extends Catalogue{
+  
+}

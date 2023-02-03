@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/cassandra"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/scalajar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/datageneraor"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hbase2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spark-3.3.0"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="datacloud/synthese/tests/CopyTableTest.scala|datacloud/synthese/tests/Top3Test.scala|datacloud/synthese/tests/TracingTest.scala" kind="src" path="ressources"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

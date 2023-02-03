@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/home/raymond/datacloud/datacloud_workspace/exercices_spark/sparkjoblauncher.sh"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="${workspace_loc}${project_path}/bin&#10;${java_type_name}&#10;6"/>
+</launchConfiguration>

@@ -1,0 +1,24 @@
+Q1) CREATE TABLE Vehicule (idvehicule int PRIMARY KEY, marque text, modele text, kilometrage int, mecano int); 
+Q2) CREATE TABLE Mecanicien (idmecano int PRIMARY KEY, nom text, prenom text, status text);	
+
+
+Q4) SELECT * from vehicule ; 
+Q5) SELECT marque from vehicule ; 
+
+Q6) SELECT nom from mecanicien WHERE idmecano=3 ; 
+Q7) SELECT marque, modele from vehicule WHERE mecano=3 ALLOW FILTERING ; 
+		quand on recherche par id, c'est rapide car la fonction de hashage trouve rapidement
+		Cours page 13
+		Fonction de hachage calculant un token à partir de la clé de la ligne.
+		Chaque nœud stocke un intervalle de valeur de token
+		Dans un datacenter, les nœuds sont organisés logiquement en anneau
+		sur l’espace de définition des valeurs de token
+		
+
+
+Q8) CREATE INDEX userIndex ON vehicule (mecano); 
+	SELECT marque,modele from vehicule WHERE mecano=3;
+
+Q9) SELECT * from vehicule WHERE idvehicule<5 ALLOW FILTERING;
+	SELECT * from vehicule WHERE token(idvehicule)<5;
+

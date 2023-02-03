@@ -1,0 +1,22 @@
+package datacloud.hbase
+
+
+import collection.JavaConverters._
+import org.apache.hadoop.hbase
+import org.apache.hadoop.hbase.TableName 
+
+
+class HBaseClient(connection : Connection ){
+//	c = ConnectionFactory . createConnection ( conf );
+	
+	
+	def createTable(tn:TableName, colfams:String*):Unit={
+		
+	}
+	
+	
+}
+//Configuration conf = HBaseConfiguration . create ();
+//conf . set ( " hbase . zookeeper . quorum " , " server1 . com , server2 . fr " );
+
+

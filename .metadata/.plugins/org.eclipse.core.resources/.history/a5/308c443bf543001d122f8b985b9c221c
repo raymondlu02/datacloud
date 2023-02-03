@@ -1,0 +1,20 @@
+
+
+trait Catalogue {
+   def getPrice(nom : String) : Double{
+     
+   }
+   
+   def removeProduct(nom : String) : Double{
+     
+   }
+   
+   def selectProducts(prix_min : Double , prix_max : Double) : Iterable(){
+     
+   }
+   
+   def storeProduct(nom : String , prix : Double) : Int{
+     
+   }
+   
+}

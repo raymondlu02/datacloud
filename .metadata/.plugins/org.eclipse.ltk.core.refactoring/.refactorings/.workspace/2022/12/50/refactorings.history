@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;tp9_HBase&apos;" deleteContents="true" description="Delete resource &apos;tp9_HBase&apos;" element1="/tp9_HBase" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1670864974558"/>
+</session>

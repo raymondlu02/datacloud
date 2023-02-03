@@ -1,0 +1,1 @@
+module tp2 {exports datacloud.scala.tpobject.bintree;exports datacloud.scala.tpobject.catalogue.test;exports datacloud.scala.tpobject.bintree.test;exports datacloud.scala.tpobject.vector.test;}

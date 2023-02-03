@@ -1,0 +1,5 @@
+
+
+trait Catalogue {
+   def getPrice(nom : String  ) :
+}

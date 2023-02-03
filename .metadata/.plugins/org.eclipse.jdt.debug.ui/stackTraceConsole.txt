@@ -1,0 +1,3 @@
+val df = spark.cassandraTable("keyspace_name", "table_name")
+  .cassandraFormat("column_name", "frozen<datatype>")
+  .save()
