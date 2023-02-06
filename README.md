@@ -1,6 +1,6 @@
 # datacloud
 
-Les codes que j'ai ecris sont dans dans les dossiers src 
+Les codes que j'ai ecris sont dans les dossiers src 
 
 # TP2 et TP3
 langage scala
