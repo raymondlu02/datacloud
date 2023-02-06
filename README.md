@@ -6,7 +6,7 @@ Les codes que j'ai ecris sont dans les dossiers src
 langage scala
 
 # TP4 et TP5
-spark et spark streaming Cancel changes
+spark et spark streaming 
 
 # TP8
 zookeeper
